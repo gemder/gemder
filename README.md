@@ -1,16 +1,27 @@
-### Hi there 👋
+# Pointer.js
+A JavaScript library for making a cool pointer
 
-<!--
-**gemder/gemder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Install Guide
+>_Note: You need to import both js and css files._
 
-Here are some ideas to get you started:
+1. Import js file from 'https://seattleowl.com/pointer.js/pointer.js', like so:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+	```html
+	<script src="https://seattleowl.com/pointer.js/pointer.js"></script>
+	```
+1. Do the same for the css:
+		
+	```html
+	<link href="https://seattleowl.com/pointer.js/pointer.css" rel="stylesheet">
+	```
+1. Finally add this javascript code to customize your pointer:
+		
+	```javascript
+	init_pointer({
+		pointerColor: "purple", // Css color
+		ringSize: 15, // Pixels
+		ringClickSize: 10 // Pixels when clicking
+	})
+	```
+		
+You should now have something like the example in `/index.html`.

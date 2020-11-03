@@ -40,7 +40,7 @@ const init_pointer = (options) => {
         let defaultObj = {
             pointerColor: "#750c7e",
             ringSize: 15,
-            ringClickSize: (options["ringSize"] || 15) - 5,
+            ringClickSize: (options["ringSize"] || 15) - 10,
         }
         if (options[option] == undefined) {
             return defaultObj[option]
@@ -105,3 +105,73 @@ $(function () {
         return false;
     });
 });
+
+//loading finalisado////////
+
+$(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+
+
+
+///// hide menu ////////////
+function hide() {
+    document.getElementById("barra").style.left ="-70px";
+    document.getElementById("contenido").style.marginLeft =" 0px";
+    document.getElementById("contenido_2").style.marginLeft =" 0px";
+    document.getElementById("contenido_3").style.marginLeft =" 0px";
+    document.getElementById("contenido_4").style.marginLeft =" 0px";
+    document.getElementById("contenido_5").style.marginLeft =" 0px";
+     document.getElementById("menu_out").style.opacity="100%";
+     // document.getElementById("logo").style.opacity="0%";
+      
+}
+
+function show() {
+    document.getElementById("barra").style.left ="0";
+    document.getElementById("contenido").style.marginLeft ="72px";
+    document.getElementById("contenido_2").style.marginLeft =" 72px";
+    document.getElementById("contenido_3").style.marginLeft =" 72px";
+    document.getElementById("contenido_4").style.marginLeft =" 72px";
+    document.getElementById("contenido_5").style.marginLeft =" 72px";
+    document.getElementById("menu_out").style.opacity="0%";
+    document.getElementById("logo").style.opacity="100%"; 
+
+}
+
+//function menuanimacion(x) {
+  //document.getElementById("linea_01").style.transform = "rotate(45deg)";
+ // document.getElementById("linea_01").style.top =" 5px";
+  //document.getElementById("linea_02").style.transform = "rotate(-45deg)";
+  // document.getElementById("linea_02").style.bottom =" 5px";
+  // document.getElementById("linea_03").style.opacity="0%";
+//}
+
+//function normalmenu(x) {
+  //document.getElementById("linea_01").style.transform = "rotate(0deg)";
+       // document.getElementById("linea_02").style.transform = "rotate(0deg)";
+       //  document.getElementById("linea_02").style.bottom ="0";
+          // document.getElementById("linea_01").style.top =" 0";
+          // document.getElementById("linea_03").style.opacity="100%";
+
+//}
+
+// slide animation //
+
+
+AOS.init({
+  duration: 900,
+})
+
+//no right click //
+
+
+
+//$('body').bind('contextmenu', function(e){
+
+//alert("We're sorry. Right-Click is not available");
+
+//return false;
+
+//});
+

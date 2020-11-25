@@ -92,15 +92,21 @@ $(function () {
         }, 700);
         return false;
     });
-     $("#info").on("click", function () {
+    $("#info").on("click", function () {
         $("html, body").animate({
             scrollTop: $("#contenido_4").offset().top
         }, 700);
         return false;
     });
-       $("#contactanos").on("click", function () {
+    $("#contactanos").on("click", function () {
         $("html, body").animate({
             scrollTop: $("#contenido_5").offset().top
+        }, 700);
+        return false;
+    });
+    $("#home").on("click", function () {
+        $("html, body").animate({
+            scrollTop: $("#contenido").offset().top
         }, 700);
         return false;
     });
@@ -108,51 +114,51 @@ $(function () {
 
 //loading finalisado////////
 
-$(window).on("load",function(){
-          $(".loader-wrapper").fadeOut("slow");
-        });
+$(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+});
 
 
 
 ///// hide menu ////////////
 function hide() {
-    document.getElementById("barra").style.left ="-70px";
-    document.getElementById("contenido").style.marginLeft =" 0px";
-    document.getElementById("contenido_2").style.marginLeft =" 0px";
-    document.getElementById("contenido_3").style.marginLeft =" 0px";
-    document.getElementById("contenido_4").style.marginLeft =" 0px";
-    document.getElementById("contenido_5").style.marginLeft =" 0px";
-     document.getElementById("menu_out").style.opacity="100%";
-     // document.getElementById("logo").style.opacity="0%";
-      
+    document.getElementById("barra").style.left = "-70px";
+    document.getElementById("contenido").style.marginLeft = " 0px";
+    document.getElementById("contenido_2").style.marginLeft = " 0px";
+    document.getElementById("contenido_3").style.marginLeft = " 0px";
+    document.getElementById("contenido_4").style.marginLeft = " 0px";
+    document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("menu_out").style.opacity = "100%";
+    // document.getElementById("logo").style.opacity="0%";
+
 }
 
 function show() {
-    document.getElementById("barra").style.left ="0";
-    document.getElementById("contenido").style.marginLeft ="72px";
-    document.getElementById("contenido_2").style.marginLeft =" 72px";
-    document.getElementById("contenido_3").style.marginLeft =" 72px";
-    document.getElementById("contenido_4").style.marginLeft =" 72px";
-    document.getElementById("contenido_5").style.marginLeft =" 72px";
-    document.getElementById("menu_out").style.opacity="0%";
-    document.getElementById("logo").style.opacity="100%"; 
+    document.getElementById("barra").style.left = "0";
+    document.getElementById("contenido").style.marginLeft = "72px";
+    document.getElementById("contenido_2").style.marginLeft = " 72px";
+    document.getElementById("contenido_3").style.marginLeft = " 72px";
+    document.getElementById("contenido_4").style.marginLeft = " 72px";
+    document.getElementById("contenido_5").style.marginLeft = " 72px";
+    document.getElementById("menu_out").style.opacity = "0%";
+    document.getElementById("logo").style.opacity = "100%";
 
 }
 
 //function menuanimacion(x) {
-  //document.getElementById("linea_01").style.transform = "rotate(45deg)";
- // document.getElementById("linea_01").style.top =" 5px";
-  //document.getElementById("linea_02").style.transform = "rotate(-45deg)";
-  // document.getElementById("linea_02").style.bottom =" 5px";
-  // document.getElementById("linea_03").style.opacity="0%";
+//document.getElementById("linea_01").style.transform = "rotate(45deg)";
+// document.getElementById("linea_01").style.top =" 5px";
+//document.getElementById("linea_02").style.transform = "rotate(-45deg)";
+// document.getElementById("linea_02").style.bottom =" 5px";
+// document.getElementById("linea_03").style.opacity="0%";
 //}
 
 //function normalmenu(x) {
-  //document.getElementById("linea_01").style.transform = "rotate(0deg)";
-       // document.getElementById("linea_02").style.transform = "rotate(0deg)";
-       //  document.getElementById("linea_02").style.bottom ="0";
-          // document.getElementById("linea_01").style.top =" 0";
-          // document.getElementById("linea_03").style.opacity="100%";
+//document.getElementById("linea_01").style.transform = "rotate(0deg)";
+// document.getElementById("linea_02").style.transform = "rotate(0deg)";
+//  document.getElementById("linea_02").style.bottom ="0";
+// document.getElementById("linea_01").style.top =" 0";
+// document.getElementById("linea_03").style.opacity="100%";
 
 //}
 
@@ -160,7 +166,7 @@ function show() {
 
 
 AOS.init({
-  duration: 900,
+    duration: 900,
 })
 
 //no right click //

@@ -16,7 +16,7 @@
   left: calc(50% - 25px);
   height: 50px;
   width: 50px;
-  background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #8900FF 100%);
   border-radius: 50%;
   opacity: 90%;
   /*  Rotate  */

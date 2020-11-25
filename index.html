@@ -10,6 +10,7 @@
 	<link href="css/aos.css" rel="stylesheet" type="text/css" />
 	<link href="css/loader.css" rel="stylesheet" type="text/css" />
 	<link href="css/pointer.css" rel="stylesheet" type="text/css">
+	<script src="js/image_split.js" ></script>
 
 	<title>gemder</title>
 </head>
@@ -36,41 +37,44 @@
 				<div id="linea_02"></div>
 			</button>
 
-			<button type="button" class="Botones_Barra" id="Proyectos" onclick="location.href='#1';">
+			<button type="button" class="Botones_Barra" id="home" onclick="location.href='#1';">
+				<img src="ico/home.svg">
+			</button>
+
+			<button type="button" class="Botones_Barra" id="Proyectos" onclick="location.href='#2';">
 				<img src="ico/Proyectos.svg">
 			</button>
 
-			<button type="button" class="Botones_Barra" id="Servicios" onclick="location.href='#2';">
+			<button type="button" class="Botones_Barra" id="Servicios" onclick="location.href='#3';">
 				<img src="ico/lapiz.svg">
 			</button>
 
-			<button type="button" class="Botones_Barra" id="info" onclick="location.href='#3';">
+			<button type="button" class="Botones_Barra" id="info" onclick="location.href='#4';">
 				<img src="ico/about.svg">
 			</button>
 
-			<button type="button" class="Botones_Barra" id="contactanos" onclick="location.href='#4';">
+			<button type="button" class="Botones_Barra" id="contactanos" onclick="location.href='#5';">
 				<img src="ico/contact.svg">
 			</button>
 
 		</div>
 
 		<div id="contenido">
-			<img src="img/fondo.png"  />
+			<img src="img/fondo.png" />
 		</div>
 
 		<div id="contenido_2">
-			<h1 data-aos="fade-up">CONTENIDO 2</h1>
 			
+			<!--  <img src="https://picsum.photos/300/300/?random" data-aos="fade-up"></img>-->
 		</div>
 
+
 		<div id="contenido_3">
-			<div id="Center_slider_1" data-aos="zoom-out">
+	
+			<div class="content_slide">
+				<div class="split a">A</div>
+				<div class="split b">B</div>
 			</div>
-
-			<button id="left" class="slider" data-aos="fade-right"></button>
-			<button id="right" class="slider" data-aos="fade-left"></button>
-
-
 		</div>
 
 		<div id="contenido_4">
@@ -90,6 +94,12 @@
 <!--<script language="JavaScript">
 document.oncontextmenu =new Function("return false;")
 </script> -->
+<script>
+	Split(['.a', '.b'], {
+	  gutterSize: 5,
+	  sizes: [80,80]
+	});
+  </script>
 
 <script type="text/javascript" src="js/code.jquery.scroll.js"></script>
 <script src="js/pointer.js"></script>

@@ -42,13 +42,13 @@
 /* para mobil*/
 @media only screen and (min-width: 280px) {
   #barra{
-  left: -70px;
+  left: 0px;
 }
 #contenido,#contenido_2,#contenido_3,#contenido_4,#contenido_5 {
   margin-left: 0;
 }
-#menu_out{
-  opacity: 100%;
+#logo{
+  opacity:100%;
 }
 
 }
@@ -58,10 +58,10 @@
   left: 0px;
 }
 #contenido,#contenido_2,#contenido_3,#contenido_4,#contenido_5{
-  margin-left: 72px;
+  margin-left: 0px;
 }
 #menu_out{
-  opacity: 0%;
+  opacity: 100%;
 }
 }
 

@@ -38,7 +38,7 @@ img{
 #barra{
 	position:fixed;
 	top: 0;
-	left: 0;
+	margin-left: -72px;
 	background-color: #121212;
 	height: 100%;
 	width: 70px;
@@ -56,7 +56,8 @@ img{
 	height: 60px;
 	width: 70px;
     cursor: none;
-    outline: none;
+	outline: none;
+	top: 2px;
     /*cursor: pointer;*/
 }
 .Botones_Barra:hover{
@@ -77,59 +78,43 @@ background-image: url('ico/Proyectos.svg');
 }*/
 #logo{
 	position: relative;
-	background-color: #121212;
+	top: -600px;
+	left: 63px;
+	background-color:transparent;
 	border-style:none;
 	margin-top: 20px;
-	height: 60px;
-	width: auto;
+	height: 100px;
+	width: 100px;
 	cursor: none;
     outline: none;
-    transition: 0.3s;
-}
-#logo div{
-	position: relative;
-    left: 6px;
-    right: 5px; 
-	height:2px;
-	width:40px ;
-	background-color: #750c7e;
 	transition: 0.3s;
+	
+
+	
 }
-#linea_01{
-position: relative;
-top: 0;
-transform: rotate(45deg)
+#logo img{
+height: 100px;
+width: 100px;
 }
-#linea_02{
-  position: relative;
-  bottom: 2px;
-  transform: rotate(-45deg)
-}
+
 #menu_out{
-	position:fixed;
-	  top: 20px;
-	  left: 10px;
-	height:45px;
-	width: 45px;
-	background-color: transparent;
-	border-style: none;
+	position:relative;
+	top: -475px;
+	left: 63px;
+	background-color:transparent;
+	border-style:none;
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
 	cursor: none;
     outline: none;
-	opacity: 0;
 	transition: 0.3s;
-	z-index: 20;
+visibility: hidden;
 }
-.linea_1,.linea_2,.linea_3{
-	position: relative;
-	margin-top: 8px;
-    left: 5px;
-    right: 1px; 
-	height:5px;
-	width:5px ;
-	border-radius: 50%;
-	/*background-color: #750c7e;*/
-	background-color: white;
-    transition: 0.5s;
+#menu_out img{
+
+height: 100px;
+width: 100px;
 }
 @keyframes mymove {
   
@@ -142,7 +127,7 @@ transform: rotate(45deg)
 }
 #contenido{
 	overflow:auto;
-	margin-left: 72px;
+	
 background: rgb(24,24,24);
 background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 	/*background-color: #181818;*/
@@ -156,7 +141,6 @@ background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 	position: absolute;/*Center a div code*/
     margin: auto;
     bottom: 0;
-    left: 0;
     right: 0;
 	border-top: 0px;
 	 max-width: 80%;
@@ -168,7 +152,6 @@ background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 }
 #contenido_2{
 	overflow:auto;
-	margin-left: 72px;
 	background-color:#181818;
 	/*background-color: #181818;*/
 	height: 100%;
@@ -181,7 +164,6 @@ background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 #contenido_3{
 	position: relative;
 	overflow:auto;
-	margin-left: 72px;
 	background-color:#181818;
 	height: 100%;
 	min-width: 90%;
@@ -195,7 +177,6 @@ background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 
 #contenido_4{
 	overflow:auto;
-	margin-left: 72px;
 	background-color:#181818;
 	/*background-color: #181818;*/
 	height: 100%;
@@ -204,7 +185,6 @@ background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 }
 #contenido_5{
 	overflow:auto;
-	margin-left: 72px;
 	background-color:#181818;
 	/*background-color: #181818;*/
 	height: 100%;

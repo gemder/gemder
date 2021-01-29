@@ -84,32 +84,84 @@ $(function () {
         $("html, body").animate({
             scrollTop: $("#contenido_2").offset().top
         }, 700);
+        document.getElementById("barra").style.left = "0";
+    document.getElementById("contenido").style.marginLeft = "0px";
+    document.getElementById("contenido_2").style.marginLeft = " 0px";
+    document.getElementById("contenido_3").style.marginLeft = " 0px";
+    document.getElementById("contenido_4").style.marginLeft = " 0px";
+    document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
         return false;
+
+
     });
     $("#Servicios").on("click", function () {
         $("html, body").animate({
             scrollTop: $("#contenido_3").offset().top
+            
         }, 700);
+    document.getElementById("barra").style.left = "0";
+    document.getElementById("contenido").style.marginLeft = "0px";
+    document.getElementById("contenido_2").style.marginLeft = " 0px";
+    document.getElementById("contenido_3").style.marginLeft = " 0px";
+    document.getElementById("contenido_4").style.marginLeft = " 0px";
+    document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
         return false;
     });
+
+
     $("#info").on("click", function () {
         $("html, body").animate({
             scrollTop: $("#contenido_4").offset().top
         }, 700);
+        document.getElementById("barra").style.left = "0";
+    document.getElementById("contenido").style.marginLeft = "0px";
+    document.getElementById("contenido_2").style.marginLeft = " 0px";
+    document.getElementById("contenido_3").style.marginLeft = " 0px";
+    document.getElementById("contenido_4").style.marginLeft = " 0px";
+    document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
         return false;
     });
+
+
+
     $("#contactanos").on("click", function () {
         $("html, body").animate({
             scrollTop: $("#contenido_5").offset().top
         }, 700);
+        document.getElementById("barra").style.left = "0";
+    document.getElementById("contenido").style.marginLeft = "0px";
+    document.getElementById("contenido_2").style.marginLeft = " 0px";
+    document.getElementById("contenido_3").style.marginLeft = " 0px";
+    document.getElementById("contenido_4").style.marginLeft = " 0px";
+    document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
         return false;
     });
+
+
     $("#home").on("click", function () {
         $("html, body").animate({
             scrollTop: $("#contenido").offset().top
         }, 700);
+        document.getElementById("barra").style.left = "0";
+    document.getElementById("contenido").style.marginLeft = "0px";
+    document.getElementById("contenido_2").style.marginLeft = " 0px";
+    document.getElementById("contenido_3").style.marginLeft = " 0px";
+    document.getElementById("contenido_4").style.marginLeft = " 0px";
+    document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
         return false;
     });
+
+    
 });
 
 //loading finalisado////////
@@ -122,7 +174,7 @@ $(window).on("load", function () {
 
 ///// hide menu ////////////
 function hide() {
-    document.getElementById("barra").style.left = "70px";
+    document.getElementById("barra").style.left = "72px";
     document.getElementById("contenido").style.marginLeft = " 72px";
     document.getElementById("contenido_2").style.marginLeft = " 72px";
     document.getElementById("contenido_3").style.marginLeft = " 72px";
@@ -143,7 +195,7 @@ function show() {
     document.getElementById("contenido_5").style.marginLeft = " 0px";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
-   
+
    
     
  

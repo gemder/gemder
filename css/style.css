@@ -157,7 +157,7 @@ top:100px;
 margin-left: auto;
 margin-right: auto;
 height: auto;
-width: 450px;
+width: 30%;
 }
 
  input[type=text], select {
@@ -192,7 +192,16 @@ width: 450px;
 	box-sizing: border-box;
 	color: white;
 	background-color: #121212;
-
+  }
+  #w3review:hover{
+	border-color: slateblue;
+	transition: 0.5s;
+	background-color: white;
+	color: black;
+  }
+  #w3review:focus{
+	background-color: white;
+	color: black;
   }
 
 

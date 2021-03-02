@@ -40,7 +40,14 @@
 }
 
 /* para mobil*/
-@media only screen and (min-width: 280px) {
+@media only screen and (min-width: 320px) {
+  #Form{
+    top: 150px;
+    width: 90%;
+  }
+  input[type=text]{
+    width: 100%;
+  }
   #barra{
   left: 0px;
 }

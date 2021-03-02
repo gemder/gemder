@@ -53,14 +53,14 @@ img{
     cursor: none;
 	outline: none;
 	top: 2px;
-	transition: 0.5s;
+	transition: 0.9s;
     /*cursor: pointer;*/
 }
-.Botones_Barra:hover{
-	background-color: #181818;
-	color: black;
-	transition: 5s;
-}
+
+svg:hover {
+	fill: red;
+  }
+  
 .Botones_Barra:active{
  background-color: #181818;
 }

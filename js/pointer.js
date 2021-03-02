@@ -188,7 +188,7 @@ function hide() {
     document.getElementById("Servicios").style.marginLeft = " 0px";
     document.getElementById("info").style.marginLeft = " 0px";
     document.getElementById("contactanos").style.marginLeft = " 0px";
-    document.getElementById("blur").style.opacity="90%";
+    document.getElementById("blur").style.opacity="0.95";
  
 
 }

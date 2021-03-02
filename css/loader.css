@@ -41,6 +41,12 @@
 
 /* para mobil*/
 @media only screen and (max-width: 767px) {
+  #pointer-ring{
+    visibility: hidden;
+  }
+  #pointer-dot {
+    visibility: hidden;
+  }
   #Form{
     top: 150px;
     width: 90%;

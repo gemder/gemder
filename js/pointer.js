@@ -90,6 +90,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("blur").style.opacity="0%";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -107,6 +108,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("blur").style.opacity="0%";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -123,6 +125,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("blur").style.opacity="0%";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -140,6 +143,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("blur").style.opacity="0%";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -156,6 +160,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("blur").style.opacity="0%";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -175,31 +180,30 @@ $(window).on("load", function () {
 ///// hide menu ////////////
 function hide() {
     document.getElementById("barra").style.left = "72px";
-    document.getElementById("contenido").style.marginLeft = " 72px";
-    document.getElementById("contenido_2").style.marginLeft = " 72px";
-    document.getElementById("contenido_3").style.marginLeft = " 72px";
-    document.getElementById("contenido_4").style.marginLeft = " 72px";
-    document.getElementById("contenido_5").style.marginLeft = " 72px";
+    
     document.getElementById("menu_out").style.visibility = 'visible';
     document.getElementById("logo").style.visibility = 'hidden';
+    document.getElementById("home").style.marginLeft = " 0px";
+    document.getElementById("Proyectos").style.marginLeft = " 0px";
+    document.getElementById("Servicios").style.marginLeft = " 0px";
+    document.getElementById("info").style.marginLeft = " 0px";
+    document.getElementById("contactanos").style.marginLeft = " 0px";
+    document.getElementById("blur").style.opacity="90%";
  
 
 }
 
 function show() {
-    document.getElementById("barra").style.left = "0";
-    document.getElementById("contenido").style.marginLeft = "0px";
-    document.getElementById("contenido_2").style.marginLeft = " 0px";
-    document.getElementById("contenido_3").style.marginLeft = " 0px";
-    document.getElementById("contenido_4").style.marginLeft = " 0px";
-    document.getElementById("contenido_5").style.marginLeft = " 0px";
+    document.getElementById("barra").style.left = "0px";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
-
-   
+    document.getElementById("home").style.marginLeft = " -50px";
+    document.getElementById("Proyectos").style.marginLeft = " -60px";
+    document.getElementById("Servicios").style.marginLeft = " -70px";
+    document.getElementById("info").style.marginLeft = " -80px";
+    document.getElementById("contactanos").style.marginLeft = " -90px";
+    document.getElementById("blur").style.opacity="0%";
     
- 
-
 }
 
 //function menuanimacion(x) {

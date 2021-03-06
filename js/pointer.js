@@ -188,7 +188,9 @@ function hide() {
     document.getElementById("Servicios").style.marginLeft = " 0px";
     document.getElementById("info").style.marginLeft = " 0px";
     document.getElementById("contactanos").style.marginLeft = " 0px";
-    document.getElementById("blur").style.opacity="0.95";
+    document.getElementById("blur").style.visibility = 'visible';
+
+ 
  
 
 }
@@ -198,12 +200,11 @@ function show() {
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
     document.getElementById("home").style.marginLeft = " -50px";
-    document.getElementById("Proyectos").style.marginLeft = " -60px";
-    document.getElementById("Servicios").style.marginLeft = " -70px";
-    document.getElementById("info").style.marginLeft = " -80px";
-    document.getElementById("contactanos").style.marginLeft = " -90px";
-    document.getElementById("blur").style.opacity="0%";
-    
+    document.getElementById("Proyectos").style.marginLeft = " -70px";
+    document.getElementById("Servicios").style.marginLeft = " -80px";
+    document.getElementById("info").style.marginLeft = " -90px";
+    document.getElementById("contactanos").style.marginLeft = " -100px";
+    document.getElementById("blur").style.visibility = 'hidden';
 }
 
 //function menuanimacion(x) {

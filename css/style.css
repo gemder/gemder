@@ -134,9 +134,7 @@ width: 100px;
 	transition: 0.5s;
   /* background-image: url(../img/fondo.png);*/
    /*background-position: center center;*/
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-size: auto 70%;
+
 
 	
 }

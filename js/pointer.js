@@ -173,7 +173,9 @@ $(function () {
 
 $(window).on("load", function () {
     $(".loader-wrapper").fadeOut("slow");
+    document.getElementById("studio").style.animationName = 'example';
 });
+
 
 
 

@@ -2,7 +2,6 @@ body, html{
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #181818; /* color de fondo*/
 	/*background-color: #121212;*/ /* color de barra*/
 	/*overflow:   scroll;*/
 	color: #FDFEFE;
@@ -14,7 +13,7 @@ body, html{
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
-								 
+						 
 }
 @font-face {
 	font-family: myFirstFont;
@@ -127,19 +126,51 @@ width: 100px;
  /*100% {border-color: #8633fd;}*/
 }
 #contenido{
+	position: relative;
     background: rgb(24,24,24);
     background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 	height: 100vh;
 	min-width: 90%;
 	transition: 0.5s;
-   background-image: url(../img/fondo.png);
+  /* background-image: url(../img/fondo.png);*/
+   /*background-position: center center;*/
+   background-attachment: fixed;
    background-repeat: no-repeat;
-   background-size: auto 100%;
-   background-position-y: 20px;
-   background-position-x: 50%;
+   background-size: auto 70%;
+
 	
 }
+#girls{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	display: block;
+	max-width: 100%;
 
+}
+#studio{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 100px;
+	height: auto;
+	max-width: 100%;
+	z-index: 3;
+	
+}
+#gemder{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: -70px;
+	height: auto;
+	max-width: 100%;
+	
+}
 #contenido_2,#contenido_3,#contenido_4,#contenido_5{
 	position: relative;
 	background-color:#181818;
@@ -217,7 +248,7 @@ width: 30%;
 	justify-content: center;
 	align-items: center;
 	opacity: 90%;
-	z-index: 1;
+	z-index: 20;
 	visibility:hidden;
 
   }

@@ -90,7 +90,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
-    document.getElementById("blur").style.opacity="0%";
+    document.getElementById("blur").style.visibility = 'hidden';
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -108,7 +108,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
-    document.getElementById("blur").style.opacity="0%";
+    document.getElementById("blur").style.visibility = 'hidden';
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -125,7 +125,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
-    document.getElementById("blur").style.opacity="0%";
+    document.getElementById("blur").style.visibility = 'hidden';
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -143,7 +143,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
-    document.getElementById("blur").style.opacity="0%";
+    document.getElementById("blur").style.visibility = 'hidden';
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -160,7 +160,7 @@ $(function () {
     document.getElementById("contenido_3").style.marginLeft = " 0px";
     document.getElementById("contenido_4").style.marginLeft = " 0px";
     document.getElementById("contenido_5").style.marginLeft = " 0px";
-    document.getElementById("blur").style.opacity="0%";
+    document.getElementById("blur").style.visibility = 'hidden';
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;

@@ -116,15 +116,7 @@ visibility: hidden;
 height: 100px;
 width: 100px;
 }
-@keyframes mymove {
-  
-  60%  {
-  	border-color:rgb(134,51,253);
-  	border-color:linear-gradient(90deg, rgba(134,51,253,1) 0%, rgba(245,177,226,1) 50%, rgba(230,25,240,1) 100%);
-  }
 
- /*100% {border-color: #8633fd;}*/
-}
 #contenido{
 	position: relative;
     background: rgb(24,24,24);
@@ -150,8 +142,8 @@ width: 100px;
 }
 #studio{
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 33%;
+	left: 52%;
 	transform: translate(-50%, -50%);
 	margin-top: 100px;
 	height: auto;
@@ -170,9 +162,7 @@ width: 100px;
 	height: auto;
 	max-width: 100%;
 	animation-name: example;
-	animation-duration: 2s;
-	
-	
+	animation-duration: 2s;	
 }
 @keyframes example {
 	from {opacity: 0%;}

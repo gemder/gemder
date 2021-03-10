@@ -85,11 +85,6 @@ $(function () {
             scrollTop: $("#contenido_2").offset().top
         }, 700);
         document.getElementById("barra").style.left = "0";
-    document.getElementById("contenido").style.marginLeft = "0px";
-    document.getElementById("contenido_2").style.marginLeft = " 0px";
-    document.getElementById("contenido_3").style.marginLeft = " 0px";
-    document.getElementById("contenido_4").style.marginLeft = " 0px";
-    document.getElementById("contenido_5").style.marginLeft = " 0px";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -102,11 +97,6 @@ $(function () {
             
         }, 700);
     document.getElementById("barra").style.left = "0";
-    document.getElementById("contenido").style.marginLeft = "0px";
-    document.getElementById("contenido_2").style.marginLeft = " 0px";
-    document.getElementById("contenido_3").style.marginLeft = " 0px";
-    document.getElementById("contenido_4").style.marginLeft = " 0px";
-    document.getElementById("contenido_5").style.marginLeft = " 0px";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -118,11 +108,6 @@ $(function () {
             scrollTop: $("#contenido_4").offset().top
         }, 700);
         document.getElementById("barra").style.left = "0";
-    document.getElementById("contenido").style.marginLeft = "0px";
-    document.getElementById("contenido_2").style.marginLeft = " 0px";
-    document.getElementById("contenido_3").style.marginLeft = " 0px";
-    document.getElementById("contenido_4").style.marginLeft = " 0px";
-    document.getElementById("contenido_5").style.marginLeft = " 0px";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -135,11 +120,6 @@ $(function () {
             scrollTop: $("#contenido_5").offset().top
         }, 700);
         document.getElementById("barra").style.left = "0";
-    document.getElementById("contenido").style.marginLeft = "0px";
-    document.getElementById("contenido_2").style.marginLeft = " 0px";
-    document.getElementById("contenido_3").style.marginLeft = " 0px";
-    document.getElementById("contenido_4").style.marginLeft = " 0px";
-    document.getElementById("contenido_5").style.marginLeft = " 0px";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -151,11 +131,6 @@ $(function () {
             scrollTop: $("#contenido").offset().top
         }, 700);
         document.getElementById("barra").style.left = "0";
-    document.getElementById("contenido").style.marginLeft = "0px";
-    document.getElementById("contenido_2").style.marginLeft = " 0px";
-    document.getElementById("contenido_3").style.marginLeft = " 0px";
-    document.getElementById("contenido_4").style.marginLeft = " 0px";
-    document.getElementById("contenido_5").style.marginLeft = " 0px";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
@@ -176,11 +151,6 @@ $(window).on("load", function () {
 ///// hide menu ////////////
 function hide() {
     document.getElementById("barra").style.left = "70px";
-    document.getElementById("contenido").style.marginLeft = " 72px";
-    document.getElementById("contenido_2").style.marginLeft = " 72px";
-    document.getElementById("contenido_3").style.marginLeft = " 72px";
-    document.getElementById("contenido_4").style.marginLeft = " 72px";
-    document.getElementById("contenido_5").style.marginLeft = " 72px";
     document.getElementById("menu_out").style.visibility = 'visible';
     document.getElementById("logo").style.visibility = 'hidden';
  

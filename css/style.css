@@ -126,7 +126,7 @@ width: 100px;
  /*100% {border-color: #8633fd;}*/
 }
 #contenido{
-	overflow:auto;
+	overflow:scroll;
 background: rgb(24,24,24);
 background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 	/*background-color: #181818;*/
@@ -139,11 +139,9 @@ background: linear-gradient(0deg, rgba(24,24,24,0) 0%, rgba(0,0,0,1) 100%);
 #contenido_2,#contenido_3,#contenido_4,#contenido_5{
 	overflow:auto;
 	background-color:#181818;
-	/*background-color: #181818;*/
 	height: 100%;
 	min-width: 90%;
 	transition: 0.5s;
-	z-index: 20;
 }
 /*formulario contenido 5*/
 #Form{
@@ -210,8 +208,8 @@ input[type="submit"]{
 }
 
 /************************************************************************************************************/
-#girls{
-	position: fixed;
+#boy{
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);

@@ -47,10 +47,6 @@
   #pointer-dot {
     visibility: hidden;
   }
-  #Form{
-    top: 150px;
-    width: 90%;
-  }
   input[type=text]{
     width: 100%;
   }
@@ -59,6 +55,16 @@
 }
 #contenido,#contenido_2,#contenido_3,#contenido_4,#contenido_5 {
   margin-left: 0;
+}
+#Form,#form_info{
+  width: 100%;
+float: none;
+}
+#form_info h1,#form_info p,.line{
+  left: 15%;
+}
+#form_info h1{
+  font-size: 30px;
 }
 /*#contenido{
 

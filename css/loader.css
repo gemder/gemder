@@ -57,16 +57,11 @@
   height: 100%;
   margin-left: 0;
 }
-#Form,#form_info{
+#form_info,#formulario{
   width: 100%;
 float: none;
 }
-#form_info h1,#form_info p,.line{
-  left: 15%;
-}
-#form_info h1{
-  font-size: 30px;
-}
+
 /*#contenido{
 
  background-image: url(../img/mobil\ walpaper.png);

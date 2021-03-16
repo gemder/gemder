@@ -137,7 +137,6 @@ width: 100px;
 }
 
 #contenido_2,#contenido_3,#contenido_4,#contenido_5{
-	overflow:auto;
 	background-color:#181818;
 	height: 100%;
 	min-width: 90%;

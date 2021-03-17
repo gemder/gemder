@@ -42,9 +42,6 @@
 
 /* para mobil*/
 @media only screen and (max-width: 767px) {
-  body, html{
-    overflow-x:unset;
-  }
   #pointer-ring{
     visibility: hidden;
   }
@@ -77,7 +74,7 @@
 }
 #form_info,#formulario{
  width: 100%;
-float: none;
+/*float: none;*/
 }
 #form_info h1{
   top: 55px;

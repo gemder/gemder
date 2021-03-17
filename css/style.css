@@ -3,6 +3,7 @@ body, html{
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 	scroll-behavior: smooth;
 	background-color: #181818; /* color de fondo*/
 	/*background-color: #121212;*/ /* color de barra*/
@@ -16,8 +17,6 @@ body, html{
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
-
-
 }
 @font-face {
 	font-family: Roboto_Black;
@@ -146,19 +145,18 @@ width: 100px;
 	
 }
 
-#contenido_2,#contenido_3,#contenido_4,#contenido_5{
+#contenido_2,#contenido_3,#contenido_4{
 	background-color:#181818;
 	height: 100%;
 	min-width: 90%;
-	transition: 0.5s;
-	z-index: 5;
 }
 #contenido_5{
-	overflow: scroll;
+	background-color:#181818;
+	height: 100%;
+	min-width: 90%;
 }
 #form_info{
 	float: left;
-	position: relative;
 	background-color: black;
 	color: white;
 	height: 100%;
@@ -175,12 +173,12 @@ width: 100px;
 	font-family: Roboto_Regular;
 	position: absolute;
 	padding: 150px 90px;
-	width: 60%;
+	width: 30%;
 }
 .line{
 	height: 1px;
 	position: absolute;
-	width: 50%;
+	width: 30%;
 	margin-top: 230px;
 	margin-left: 90px;
 	background-color: white;
@@ -192,6 +190,7 @@ width: 100px;
 	width: 40%;
 }
 #formulario{
+	position: relative;
 	float: right;
     background-color: blueviolet;
 	height: 100%;

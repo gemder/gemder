@@ -80,7 +80,7 @@ const init_pointer = (options) => {
 
 
 $(function () {
-    $("#Proyectos,#Servicios,#info,#contactanos,#home").on("click", function () {
+    $("#Proyectos").on("click", function () {
     document.getElementById("barra").style.left = "0";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
@@ -88,6 +88,40 @@ $(function () {
 
 
     });
+    $("#Servicios").on("click", function () {
+    document.getElementById("barra").style.left = "0";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
+        return false;
+    });
+
+
+    $("#info").on("click", function () {
+    document.getElementById("barra").style.left = "0";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
+        return false;
+    });
+
+
+
+    $("#contactanos").on("click", function () {
+    document.getElementById("barra").style.left = "0";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
+        return false;
+    });
+
+
+    $("#home").on("click", function () {
+
+    document.getElementById("barra").style.left = "0";
+    document.getElementById("menu_out").style.visibility = 'hidden';
+    document.getElementById("logo").style.visibility = 'visible';
+        return false;
+    });
+
+    
 });
 
 //loading finalisado////////

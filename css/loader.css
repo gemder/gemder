@@ -60,6 +60,21 @@
 #contenido,#contenido_2,#contenido_3,#contenido_4,#contenido_5 {
   height: 100%;
 }
+/*Contenido 5*/
+#form_info_arrow{
+	position: absolute;
+  visibility: visible;
+	background-color: transparent;
+	border-style: none;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	bottom: 10px;
+    width: 40px;
+    height: 40px;
+	animation-name: form_info_arrow_animation;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
 #form_info,#formulario{
  width: 100%;
 float: none;

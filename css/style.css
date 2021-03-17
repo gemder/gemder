@@ -124,15 +124,7 @@ visibility: hidden;
 height: 100px;
 width: 100px;
 }
-@keyframes mymove {
-  
-  60%  {
-  	border-color:rgb(134,51,253);
-  	border-color:linear-gradient(90deg, rgba(134,51,253,1) 0%, rgba(245,177,226,1) 50%, rgba(230,25,240,1) 100%);
-  }
 
- /*100% {border-color: #8633fd;}*/
-}
 #contenido{
 	position: relative;
     background: rgb(24,24,24);
@@ -150,101 +142,38 @@ width: 100px;
 	min-width: 100%;
 }
 #contenido_5{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
 	background-color:#181818;
 	height: 100%;
 	min-width: 90%;
 }
 /*complementos de contenido 5*/
-#form_info{
-	position: relative;
-	float: left;
-	background-color: black;
-	color: white;
+#col-left{
+	flex: 1;
+	left: 0px;
 	height: 100%;
 	width: 50%;
+	background-color:black;
 }
-#form_info h1{
-	position: absolute;
-	font-size: 50px;
-	left: 70px;
+#col-left h1{
 	font-family: Roboto_Black;
+    width: 90%;
 }
-.Pinfo_text{
-	position: absolute;
-	max-width: 80%;
-	left: 40px;
-	top: 130px;
+#col-left p{
 	font-family: Roboto_Regular;
+	margin-left: 15%;
+	margin-right: 9%;
+	margin-top: 60px;
 }
-.Pservicio_text{
-	position: absolute;
-	max-width: 80%;
-	left: 40px;
-	top: 300px;	
-	font-family: Roboto_Regular;
-}
-.line{
-	height: 1px;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-    margin-top: 220px;
-	background-color:  blueviolet;
-}
-.Pcorreo_text{
-	position: absolute;
-	left: 40px;
-	top: 400px;
-	font-family: Roboto_Regular;		
-}
-@keyframes form_info_arrow_animation {
-	from {bottom: 10px;}
-	to {bottom: 20px;}
-  }
-#form_info_arrow{
-visibility: hidden;
-}
-#formulario{
-	position:relative;
-	float: right;
-    background-color: black;
+#col-right{
+	flex: 1;
+	right: 0px;
 	height: 100%;
 	width: 50%;
-}
-#formulario_baby{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	height: auto;
-	width: 90%;
-	display: block;
-/*	background-color: teal;*/
-}
-#fCorreo, #fobjetivo{
-	width: 99%;
-	height: 40px;
-	margin-top: 35px;
-}
-#flast_name{
-	width: 45%;
-	height: 40px;
-    float: left;
-}
-#fname{
-	width: 45%;
-	height: 40px;
-	float: right;	
-}
-#mensaje{
-	width: 99%;
-	height: 40px;
-	margin-top: 35px;
-}
-#submit_email{
-	width: 100px;
-	height: 45px;
-	margin-top: 35px;
+	background-color: navy;
+
 }
 /*formulario contenido 5*/
 	
@@ -287,4 +216,10 @@ visibility: hidden;
 	height: auto;
 	max-width: 100%;
 	
+}
+#footer{
+	height: 15%;
+	width: 100%;
+	background-color: chartreuse;
+
 }

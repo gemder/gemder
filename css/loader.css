@@ -34,6 +34,7 @@
   border-radius: 50%;
 }
 
+
 @keyframes rotate {
     0% {transform:rotate(0deg);}
     100% {transform:rotate(360deg);}
@@ -41,6 +42,9 @@
 
 /* para mobil*/
 @media only screen and (max-width: 767px) {
+  body, html{
+    overflow-x:hidden;
+  }
   #pointer-ring{
     visibility: hidden;
   }
@@ -58,10 +62,24 @@
   margin-left: 0;
 }
 #form_info,#formulario{
-  width: 100%;
+ width: 100%;
 float: none;
 }
+#form_info h1{
+  font-size: 35px;
 
+}
+.Pinfo_text{
+  padding: 150px 30px;
+	width: 85%;
+}
+.line{
+	margin-left: 30px;
+}
+.Pcorreo_text{
+  padding: 250px 30px;
+	width: 90%;
+}
 /*#contenido{
 
  background-image: url(../img/mobil\ walpaper.png);

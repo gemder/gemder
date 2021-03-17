@@ -80,63 +80,14 @@ const init_pointer = (options) => {
 
 
 $(function () {
-    $("#Proyectos").on("click", function () {
-        $("html, body").animate({
-            scrollTop: $("#contenido_2").offset().top
-        }, 700);
-        document.getElementById("barra").style.left = "0";
-    document.getElementById("menu_out").style.visibility = 'hidden';
-    document.getElementById("logo").style.visibility = 'visible';
-        return false;
-
-
-    });
-    $("#Servicios").on("click", function () {
-        $("html, body").animate({
-            scrollTop: $("#contenido_3").offset().top
-            
-        }, 700);
+    $("#Proyectos,#Servicios,#info,#contactanos,#home").on("click", function () {
     document.getElementById("barra").style.left = "0";
     document.getElementById("menu_out").style.visibility = 'hidden';
     document.getElementById("logo").style.visibility = 'visible';
         return false;
+
+
     });
-
-
-    $("#info").on("click", function () {
-        $("html, body").animate({
-            scrollTop: $("#contenido_4").offset().top
-        }, 700);
-        document.getElementById("barra").style.left = "0";
-    document.getElementById("menu_out").style.visibility = 'hidden';
-    document.getElementById("logo").style.visibility = 'visible';
-        return false;
-    });
-
-
-
-    $("#contactanos").on("click", function () {
-        $("html, body").animate({
-            scrollTop: $("#contenido_5").offset().top
-        }, 700);
-        document.getElementById("barra").style.left = "0";
-    document.getElementById("menu_out").style.visibility = 'hidden';
-    document.getElementById("logo").style.visibility = 'visible';
-        return false;
-    });
-
-
-    $("#home").on("click", function () {
-        $("html, body").animate({
-            scrollTop: $("#contenido").offset().top
-        }, 700);
-        document.getElementById("barra").style.left = "0";
-    document.getElementById("menu_out").style.visibility = 'hidden';
-    document.getElementById("logo").style.visibility = 'visible';
-        return false;
-    });
-
-    
 });
 
 //loading finalisado////////

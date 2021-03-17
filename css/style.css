@@ -1,7 +1,9 @@
 body, html{
 	height: 100%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 	background-color: #181818; /* color de fondo*/
 	/*background-color: #121212;*/ /* color de barra*/
 	/*overflow:   scroll;*/
@@ -17,6 +19,14 @@ body, html{
 
 
 }
+@font-face {
+	font-family: Roboto_Black;
+	src: url(../Roboto_Black.ttf);
+  }
+  @font-face {
+	font-family: Roboto_Regular;
+	src: url(../Roboto_Regular.ttf);
+  }
 ::-webkit-scrollbar {
     display: none;
 
@@ -142,14 +152,44 @@ width: 100px;
 	min-width: 90%;
 	transition: 0.5s;
 	z-index: 5;
-	
+}
+#contenido_5{
+	overflow: scroll;
 }
 #form_info{
 	float: left;
+	position: relative;
 	background-color: black;
-	color: blanchedalmond;
+	color: white;
 	height: 100%;
 	width: 50%;
+}
+#form_info h1{
+	font-family: Roboto_Black;
+	font-size: 50px;
+	position: absolute;
+	padding: 20px 60px;
+
+}
+.Pinfo_text{
+	font-family: Roboto_Regular;
+	position: absolute;
+	padding: 150px 90px;
+	width: 60%;
+}
+.line{
+	height: 1px;
+	position: absolute;
+	width: 50%;
+	margin-top: 230px;
+	margin-left: 90px;
+	background-color: white;
+}
+.Pcorreo_text{
+	font-family: Roboto_Regular;
+	position: absolute;
+	padding: 250px 90px;
+	width: 40%;
 }
 #formulario{
 	float: right;
@@ -183,7 +223,7 @@ width: 100px;
 	transform: translate(-50%, -50%);
 	margin-top: 100px;
 	height: auto;
-	max-width: 100%;
+	max-width: 95%;
 	animation-name: mynewmove;
 	
 }

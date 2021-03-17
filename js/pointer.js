@@ -158,22 +158,6 @@ function show() {
 
 }
 
-//function menuanimacion(x) {
-//document.getElementById("linea_01").style.transform = "rotate(45deg)";
-// document.getElementById("linea_01").style.top =" 5px";
-//document.getElementById("linea_02").style.transform = "rotate(-45deg)";
-// document.getElementById("linea_02").style.bottom =" 5px";
-// document.getElementById("linea_03").style.opacity="0%";
-//}
-
-//function normalmenu(x) {
-//document.getElementById("linea_01").style.transform = "rotate(0deg)";
-// document.getElementById("linea_02").style.transform = "rotate(0deg)";
-//  document.getElementById("linea_02").style.bottom ="0";
-// document.getElementById("linea_01").style.top =" 0";
-// document.getElementById("linea_03").style.opacity="100%";
-
-//}
 
 // slide animation //
 

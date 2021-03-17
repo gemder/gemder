@@ -43,7 +43,7 @@
 /* para mobil*/
 @media only screen and (max-width: 767px) {
   body, html{
-    overflow-x:hidden;
+    overflow-x:unset;
   }
   #pointer-ring{
     visibility: hidden;
@@ -65,19 +65,17 @@
 float: none;
 }
 #form_info h1{
-  font-size: 35px;
-
+  top: 55px;
+	font-size: 30px;
 }
 .Pinfo_text{
-  padding: 150px 30px;
-	width: 85%;
+  max-width: 85%;
 }
-.line{
-	margin-left: 30px;
+.Pservicio_text{
+  max-width: 90%;
 }
 .Pcorreo_text{
-  padding: 250px 30px;
-	width: 90%;
+	top: 450px;		
 }
 /*#contenido{
 

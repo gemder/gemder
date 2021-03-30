@@ -16,9 +16,9 @@ $email_body = "User Name: $name.\n".
               "Mensaje: $Mensaje.\n";
 
 $to = "gemderservice@gmail.com";
-$headers = "Form: $email_from\r\n";
+$headers = "Form: $email_from \r\n";
 $headers .= "Reply-To: $email \r\n";
 mail($to,$email_subject,$email_body,$headers);
-header("location: index.html");
+header("Location: index.html");
             ?>
 

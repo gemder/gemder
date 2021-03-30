@@ -202,7 +202,10 @@ input[type=text]{
 		width: 45%;
      float: left;
 	}
-	#fCorreo{
+	#fCorreo {
+		width: 99.3%;
+	}
+	#fObjetivo{
 		width: 99.3%;
 	}
 	#Mensaje{

@@ -19,6 +19,6 @@ $to = "gemderservice@gmail.com";
 $headers = "Form: $email_from\r\n";
 $headers .= "Reply-To: $email \r\n";
 mail($to,$email_subject,$email_body,$headers);
-header(lcation: index.html);
+header(location: index.html);
             ?>
 

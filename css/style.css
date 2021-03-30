@@ -215,8 +215,10 @@ input[type=text]{
 		resize: vertical;
 	}
 	#submit{
+		border-style: none;
 		height: 50px;
 		width: 90px;
+		border-color: white;
 		background-color: white;
 		color: black;
 	}

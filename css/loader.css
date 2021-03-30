@@ -62,7 +62,13 @@
  flex-direction: column;
  flex: 100%;
  width: 100%;
+}
+.input_box{
+  width: 88%;
+}
+#col-left h1{
 
+	font-size:8vw;
 }
 
 /*#contenido{

@@ -16,6 +16,7 @@ body, html{
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+								  font-family: Roboto_Regular;
 }
 @font-face {
 	font-family: Roboto_Black;
@@ -153,16 +154,20 @@ width: 100px;
 #col-left{
 	flex: 1;
 	left: 0px;
-	height: 100%;
+	min-height: 100%;
 	width: 50%;
 	background-color:black;
 }
 #col-left h1{
 	font-family: Roboto_Black;
-    width: 90%;
+	font-size:4vw;
+    text-align: center;
+	margin-top: 80px;
+    width: 100%;
 }
 #col-left p{
 	font-family: Roboto_Regular;
+	font-size: 20px;
 	margin-left: 15%;
 	margin-right: 9%;
 	margin-top: 60px;
@@ -170,19 +175,51 @@ width: 100px;
 #col-right{
 	flex: 1;
 	right: 0px;
-	height: 100%;
+	min-height: 100%;
 	width: 50%;
-	background-color: navy;
+	background-color:black;
 
 }
 /*formulario contenido 5*/
-	
-	
-	  /*input[type=text]:hover{
-		  border-color: #750c7e;
-		  transition: 0.5s;
-	  }*/
-
+.input_box{
+    margin:  0 auto;
+	margin-top: 30px;
+	border-radius: 8px;
+	/*background-color: aquamarine;*/
+	width: 80%;
+}
+input[type=text]{
+ margin-top: 50px;
+ height: 40px;
+ border-style: none;
+ border-radius: 5px;
+	}
+	#fNombre{
+		width: 45%;
+   float: right;
+	}
+	#fApellido{
+		width: 45%;
+     float: left;
+	}
+	#fCorreo{
+		width: 99.3%;
+	}
+	#Mensaje{
+		width: 99.1%;
+		height: 150px;
+		margin-top: 50px;
+		margin-bottom: 40px;
+		border-style: none;
+		border-radius: 5px;
+		resize: vertical;
+	}
+	#submit{
+		height: 50px;
+		width: 90px;
+		background-color: white;
+		color: black;
+	}
 /************************************************************************************************************/
 #boy{
 	position: absolute;
@@ -218,8 +255,22 @@ width: 100px;
 	
 }
 #footer{
-	height: 15%;
+	text-align: center;
+	min-height: 15%;
 	width: 100%;
-	background-color: chartreuse;
-
+	color:#3D3D3D;
+	background-color: #121212;
+}
+#texto_footer{
+	display: inline; 
+	margin-top: 40px;
+	width: 70%;
+}
+#texto_footer h5 {
+	display: inline; 
+}
+#languages{
+	border-style: none;
+	background-color: #181818;
+	color:#3D3D3D;
 }

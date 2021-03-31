@@ -63,6 +63,9 @@
  flex: 100%;
  width: 100%;
 }
+#col-left{
+	min-height: 50%;
+}
 .input_box{
   width: 88%;
 }

@@ -168,9 +168,13 @@ width: 100px;
 #col-left p{
 	font-family: Roboto_Regular;
 	font-size: 20px;
-	margin-left: 15%;
+	margin-left: 10%;
 	margin-right: 9%;
 	margin-top: 60px;
+}
+#col-left h3{
+	margin-left: 10%;
+	margin-right: 9%;	
 }
 #col-right{
 	flex: 1;
@@ -224,7 +228,11 @@ input[type=text]{
 		border-color: white;
 		background-color: white;
 		color: black;
+		margin-bottom: 40px;
 	}
+	::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+padding-left: 10px;
+	  }
 /************************************************************************************************************/
 #boy{
 	position: absolute;
